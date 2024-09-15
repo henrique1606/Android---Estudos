@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Gasto Viagem</string>
+
+    <!-- Dicas para EditText -->
+    <string name="hint_distance">Distância</string>
+    <string name="hint_price">Preço</string>
+    <string name="hint_fuel_efficiency">Autonomia</string>
+
+    <!-- Texto para TextView -->
+    <string name="total_kilometers">Total de quilómetros</string>
+    <string name="price_per_liter">Preço por litro</string>
+    <string name="km_per_liter">KMs por litro</string>
+    <string name="total_expense">SEU GASTO TOTAL SERA DE:</string>
+    <string name="valor_total">R$ 0</string>
+
+    <!-- Texto para Button -->
+    <string name="calcular">CALCULAR</string>
+
+</resources>
+
+

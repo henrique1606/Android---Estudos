@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Campo de entrada para distância -->
+    <EditText
+        android:id="@+id/edit_distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:autofillHints="number"
+        android:hint="@string/hint_distance"
+        android:inputType="number" />
+
+    <!-- Texto que exibe a etiqueta para distância -->
+    <TextView
+        android:id="@+id/text_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/total_kilometers"
+        android:textColor="#8E8C8C" />
+
+    <!-- Campo de entrada para preço -->
+    <EditText
+        android:id="@+id/edit_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:autofillHints="numberDecimal"
+        android:hint="@string/hint_price"
+        android:inputType="numberDecimal" />
+
+    <!-- Texto que exibe a etiqueta para preço -->
+    <TextView
+        android:id="@+id/text_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/price_per_liter"
+        android:textColor="#8E8C8C" />
+
+    <!-- Campo de entrada para eficiência do combustível -->
+    <EditText
+        android:id="@+id/edit_autonomy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:autofillHints="numberDecimal"
+        android:hint="@string/hint_fuel_efficiency"
+        android:inputType="numberDecimal" />
+
+    <!-- Texto que exibe a etiqueta para eficiência do combustível -->
+    <TextView
+        android:id="@+id/text_autonomy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/km_per_liter"
+        android:textColor="#8E8C8C" />
+
+    <!-- Texto que exibe a etiqueta para o total de despesas -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:text="@string/total_expense"
+        android:textColor="#8E8C8C" />
+
+    <!-- Texto que exibe o valor total -->
+    <TextView
+        android:id="@+id/text_total_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="22dp"
+        android:text="@string/valor_total"
+        android:textAllCaps="true"
+        android:textColor="#520DE0"
+        android:textSize="40sp" />
+
+    <!-- Botão para realizar o cálculo -->
+    <Button
+        android:id="@+id/btn_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/pastel_green"
+        android:padding="16dp"
+        android:text="@string/calcular"
+        android:textSize="20sp" />
+
+</LinearLayout>
