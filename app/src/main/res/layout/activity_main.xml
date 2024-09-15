@@ -72,6 +72,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="50sp"
         android:text="@string/total_expense"
+        android:textSize="23dp"
         android:textColor="#8E8C8C" />
 
     <!-- Texto que exibe o valor total -->

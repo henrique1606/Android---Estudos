@@ -15,6 +15,11 @@
 
     <!-- Texto para Button -->
     <string name="calcular">CALCULAR</string>
+    <string name="success">Clique com sucesso!</string>
+
+    <!-- Texto para Validacao -->
+    <string name="validation_fill_all_fields">Preencha todos os campos.</string>
+
 
 </resources>
 
