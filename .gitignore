@@ -1,15 +1,69 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Gradle files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.properties
+
+# Local configuration file (sdk path, etc)
 local.properties
+
+# Mac OS X files
+.DS_Store
+
+# Log files
+*.log
+
+# Android Studio files
+.idea/
+*.iml
+*.iws
+*.ipr
+*.swp
+
+# Android build files
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.keystore
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# External native build directory
+.externalNativeBuild/
+
+# Java class files
+*.class
+
+# Keystore files
+*.jks
+*.keystore
+
+# Proguard folder
+proguard/
+
+# Miscellaneous
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Gradle Wrapper
+gradle-wrapper.jar
+
+# Generated files
+*.class
+*.dex
+*.apk
+*.ap_
+*.d
+
+# Kotlin
+*.kotlin_module
+
+# NDK
+obj/
+*.o
+*.a
+*.so
